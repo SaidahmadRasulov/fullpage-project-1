@@ -1,0 +1,38 @@
+.cardpage-container {
+    width: 100%;
+    height: 500px;
+    background-color:#230B59;
+    padding: 12rem 0 0 0;
+    color: var(--dark-blue);
+}
+
+.cardpage-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cardpage-card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.cardpage-card-body {
+    margin: 1rem 0;
+}
+
+.cardpage-card-body h1 span {
+    font-weight: bold;
+}
+
+.mt {
+    margin-top: 4rem;
+}
+
+.mt-t {
+    margin-top: 10rem;
+}

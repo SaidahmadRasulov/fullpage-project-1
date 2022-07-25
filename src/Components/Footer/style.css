@@ -1,0 +1,48 @@
+.footer-container {
+    margin: 2rem 0 0 0;
+    background-color:#18172B;
+    height: auto;
+    padding: 2rem 0;
+}
+
+.some {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    color: white;
+    padding: 1.5rem 0 0 0;
+}
+
+.links-group {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: white;
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+.link-group-item {
+    list-style: none;
+}
+
+hr {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+}
+
+.text {
+    color: white;
+}
+
+.text p {
+    margin: 1rem 0;
+}
+
+.wh {
+    width: 900px;
+    margin: 1rem 2rem;
+}

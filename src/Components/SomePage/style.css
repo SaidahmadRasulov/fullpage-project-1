@@ -1,0 +1,28 @@
+.somepage-container-fluid {
+    background-color: #4840BB;
+    margin: 2rem 0 0 0;
+    width: 100% !important;
+    height: 600px;
+}
+
+.somepage-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.left-somepage-content h1{
+    font-size: 3.2rem;
+    width: 50%;
+}
+
+.left-somepage-content p {
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.left-somepage-content {
+    color: white;
+    letter-spacing: 1px;
+}

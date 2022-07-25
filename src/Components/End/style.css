@@ -1,0 +1,39 @@
+.end-container {
+    text-align: center;
+}
+
+.end-content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.end-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--dark-blue);
+}
+
+.end-content h1 span {
+    font-weight: bold;
+}
+
+.end-footer-btn {
+    margin-top: 3rem;
+}
+
+.logos-group {
+    display: flex;
+}
+
+.logos-group-item {
+    list-style: none;
+}
+
+.end-footer-title {
+    margin-top: 4rem;
+}
+
+.end-footer-title p {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,63 @@
+.about-container {
+    margin: 6rem 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.about-left-content {
+    width: 40%;
+    color: var(--dark-blue);
+}
+
+.about-left-content h1 {
+    font-size: 4.5rem;
+    width: 80%;
+}
+
+.about-btns {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 4rem;
+}
+
+.about-btns p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.btn-about {
+    width: 150px;
+    height: 42px;
+    background-color: var(--dark-blue);
+    color: white;
+    border: 1px solid var(--dark-blue);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn-about:hover {
+    background-color: white;
+    color: var(--dark-blue);
+}
+
+.about-right-content {
+    position: relative;
+    width: 40%;
+}
+
+.frame-img {
+    position: absolute;
+    top: 11rem;
+    left: 14.2rem;
+}
+
+.frame-img-2 {
+    position: absolute;
+    top: 2rem;
+    right: -8rem;
+}

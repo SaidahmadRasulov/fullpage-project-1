@@ -1,0 +1,61 @@
+.service-container {
+    margin: 2rem 0;
+}
+
+.service-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.left-service-content {
+    width: 25%;
+    display: flex;
+    position: relative;
+}
+
+.left-service-content img {
+    width: 100%;
+    height: 60% !important;
+}
+
+.card-img {
+    position: absolute;
+    top: 11.5rem;
+    right: 16.5rem;
+}
+
+.right-service-content {
+    width: 35%;
+    color: var(--dark-blue);
+}
+
+.right-service-content h1 {
+    font-size: 3.7rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.service-btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.service-btns p{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.service-btns button {
+    background: var(--blue);
+    color: white;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}

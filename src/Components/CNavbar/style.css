@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.list-group-item {
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.log-btn {
+    width: 100px;
+    height: 42px;
+    background-color: white;
+    border: 2px solid #4840BB;
+    color: #4840BB;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.start-btn {
+    width: 150px;
+    height: 42px;
+    background-color: #4840BB;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #4840BB;
+}
+
+.log-btn:hover {
+    background: #4840BB;
+    color: white;
+}
+
+.start-btn:hover {
+    background: white;
+    color: #4840BB;
+}
